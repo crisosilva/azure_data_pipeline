@@ -1,0 +1,9 @@
+{
+	"name": "ETL-ninja",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "96a774ae-77d5-4538-bd86-7d0b6bc8218b",
+		"tenantId": "a223ef1e-bb8c-4dfa-9b82-5b8a7a44bc0a"
+	}
+}
