@@ -11,6 +11,27 @@
 		"AzureBlobStorage_output_connectionString": {
 			"value": ""
 		},
+		"linkedService1_clusterPassword": {
+			"value": ""
+		},
+		"linkedService1_clusterSshPassword": {
+			"value": ""
+		},
+		"linkedService1_servicePrincipalKey": {
+			"value": ""
+		},
+		"linkedService1_properties_typeProperties_hostSubscriptionId": {
+			"value": "c3afbf76-2895-4cda-89a4-32f84cdf1677"
+		},
+		"linkedService1_properties_typeProperties_clusterResourceGroup": {
+			"value": "Data_processing"
+		},
+		"linkedService1_properties_typeProperties_servicePrincipalId": {
+			"value": "2c2c0ed5-3cc3-48d8-8d58-0c2ef5a9919e"
+		},
+		"linkedService1_properties_typeProperties_tenant": {
+			"value": "a223ef1e-bb8c-4dfa-9b82-5b8a7a44bc0a"
+		},
 		"containerUri": {
 			"value": ""
 		},

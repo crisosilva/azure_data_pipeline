@@ -15,6 +15,34 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage_output'"
 		},
+		"linkedService1_clusterPassword": {
+			"type": "secureString",
+			"metadata": "Secure string for 'clusterPassword' of 'linkedService1'"
+		},
+		"linkedService1_clusterSshPassword": {
+			"type": "secureString",
+			"metadata": "Secure string for 'clusterSshPassword' of 'linkedService1'"
+		},
+		"linkedService1_servicePrincipalKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'servicePrincipalKey' of 'linkedService1'"
+		},
+		"linkedService1_properties_typeProperties_hostSubscriptionId": {
+			"type": "string",
+			"defaultValue": "c3afbf76-2895-4cda-89a4-32f84cdf1677"
+		},
+		"linkedService1_properties_typeProperties_clusterResourceGroup": {
+			"type": "string",
+			"defaultValue": "Data_processing"
+		},
+		"linkedService1_properties_typeProperties_servicePrincipalId": {
+			"type": "string",
+			"defaultValue": "2c2c0ed5-3cc3-48d8-8d58-0c2ef5a9919e"
+		},
+		"linkedService1_properties_typeProperties_tenant": {
+			"type": "string",
+			"defaultValue": "a223ef1e-bb8c-4dfa-9b82-5b8a7a44bc0a"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -47,6 +75,27 @@
 					},
 					"AzureBlobStorage_output_connectionString": {
 						"value": "[parameters('AzureBlobStorage_output_connectionString')]"
+					},
+					"linkedService1_clusterPassword": {
+						"value": "[parameters('linkedService1_clusterPassword')]"
+					},
+					"linkedService1_clusterSshPassword": {
+						"value": "[parameters('linkedService1_clusterSshPassword')]"
+					},
+					"linkedService1_servicePrincipalKey": {
+						"value": "[parameters('linkedService1_servicePrincipalKey')]"
+					},
+					"linkedService1_properties_typeProperties_hostSubscriptionId": {
+						"value": "[parameters('linkedService1_properties_typeProperties_hostSubscriptionId')]"
+					},
+					"linkedService1_properties_typeProperties_clusterResourceGroup": {
+						"value": "[parameters('linkedService1_properties_typeProperties_clusterResourceGroup')]"
+					},
+					"linkedService1_properties_typeProperties_servicePrincipalId": {
+						"value": "[parameters('linkedService1_properties_typeProperties_servicePrincipalId')]"
+					},
+					"linkedService1_properties_typeProperties_tenant": {
+						"value": "[parameters('linkedService1_properties_typeProperties_tenant')]"
 					}
 				}
 			},
